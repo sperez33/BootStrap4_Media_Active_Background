@@ -2,18 +2,77 @@
 <html lang='en'>
 <head>
 	<title> Challenge Accepted </title>
+		<style>
+		#dreams_img {
+			-moz-transform: scaleX(-1);
+			-o-transform: scaleX(-1);
+			-webkit-transform: scaleX(-1);
+			transform: FlipH;
+			-ms-filter: "FlipH";
+		}
+	</style>
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width, initial-scale=1'> <!-- makes it mobile friendly -->
+	<link rel='stylesheet' href='video_header_bootstrap4.3.1.css'>
 	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+<header>
+<div class='overlay'></div>
+<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+	<source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+</video>
+<div class='container h-100'>
+	<div class='d-flex h-100 text-center align-items-center'>
+		<div class='w-100 text-white'>
+			<h1 class='display-3'> A Dream Within A Dream</h1>
+			<h3 class='display-4'>Edgar Allan Poe</h3>
+			<p class='lead mb-0'>
+				Take this kiss upon the brow!<br>
+				And, in parting from you now,<br>
+				Thus much let me avow --<br>
+				You are not wrong, who deem<br>
+				That my days have been a dream;<br>
+				Yet if hope has flown away<br>
+				In a night, or in a day,<br>
+				In a vision, or in none,<br>
+				Is it therefore the less gone?<br>
+				All that we see or seem<br>
+				Is but a dream within a dream.<br>
+				<br>
+				I stand amid the roar<br>
+				Of a surf-tormented shore,<br>
+				And I hold within my hand<br>
+				Grains of the golden sand --<br>
+				How few! yet how they creep<br>
+				Through my fingers to the deep,<br>
+				While I weep -- while I weep!<br>
+				O God! can I not grasp<br>
+				Them with a tighter clasp?<br>
+				O God! can I not save<br>
+				One from the pitiless wave?<br>
+				Is all that we see or seem<br>
+				But a dream within a dream?					
+			</p>
+			<a href='#' class='btn btn-dark'>TOP</a>
+		</div>
+	</div>
+</div>
+</header>
+<!--
 	<div class='jumbotron'>
 	<div class='container'>
 		<div class='row'>
-			<div class='col-sm-6 btn-holder'></div>
+			<div class='col-sm-6 btn-holder'>
+				<!--<img src='dreams.jpg' alt='sunset scenery' class='img-responsive' id='dreams_img'  />
+				<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+					<source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+				</video>
+			</div>
 			<div class='col-sm-6'>
 				<h1>A Dream Within A Dream</h1>
 				<h3>Edgar Allan Poe</h3>
@@ -48,6 +107,6 @@
 			</div>
 		</div>
 	</div>
-	</div>
+	</div>-->
 </body>
 </html>
